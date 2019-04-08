@@ -12,3 +12,9 @@ configure -confirm-license -opensource -debug-and-release -static -no-dbus -no-o
 # linux
 ./configure -confirm-license -opensource -debug-and-release -static -no-xcb -prefix "/opt/Qt5.3.2"
 ```
+
+- Qt5.12-static-windows 2019年4月8日 12:46:11
+
+```bash
+configure -confirm-license -opensource -debug-and-release -static -no-dbus -no-opengl -no-gcc-sysroot -no-evdev -qt-zlib -qt-pcre -qt-libpng -qt-libjpeg -nomake examples -nomake tests -nomake tools -platform win32-msvc -prefix "C:\Qt\Qt5.3.2"
+```
