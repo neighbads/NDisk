@@ -18,3 +18,11 @@ configure -confirm-license -opensource -debug-and-release -static -no-dbus -no-o
 ```bash
 configure -confirm-license -opensource -debug-and-release -static -no-dbus -no-opengl -no-gcc-sysroot -no-evdev -qt-zlib -qt-pcre -qt-libpng -qt-libjpeg -nomake examples -nomake tests -nomake tools -platform win32-msvc -prefix "C:\Qt\Qt5.3.2"
 ```
+
+## Wireshark
+
+- Wireshark-gm 2019年11月14日 17:13:00
+
+```bash
+https://www.wireshark.org/docs/wsdg_html_chunked/ChSetupWin32.html
+```
